@@ -4,8 +4,8 @@ function Generate(count) {
         const model = "xxxxxxxx-xxxx-4xxx-xxxx-xxxxxxxxxxxx";
         var str = "";
         for (var i = 0; i < model.length; i++) {
-        var random = Math.floor(Math.random() * hex.length);
-        str += model[i] == "x" ?  hex[random] : model[i] ;
+            var random = Math.floor(Math.random() * hex.length);
+            str += model[i] == "x" ?  hex[random] : model[i] ;
         }
         return str.toLowerCase();
     };
